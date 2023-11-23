@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+     <title>Student Management System</title>
+     <style>
+          body {
+               background-image: url(login_bg.jpeg);
+               color: white;
+          }
+
+          .btn {
+               padding: 2px 55px;
+               background-color: black;
+               color: white;
+               border: 2px solid green;
+               border-radius: 10px;
+          }
+
+          #btn2 {
+               padding: 2px 57px;
+          }
+
+          .btn:hover {
+               background-color: green;
+               padding: 2px 55px;
+          }
+
+          div {
+               margin-top: 10%;
+               margin-left: 377px;
+               margin-right: 377px;
+               padding: 56px 64px;
+               border: 2px solid white;
+               border-radius: 15px;
+               background-color: rgb(13 26 41);
+               opacity: 0.85;
+          }
+     </style>
+</head>
+
+<body>
+     <div>
+          <h2 align="center">Welcome User!</h2>
+          <form name="f1" method="post" action="login.php">
+               <table border="0" align="center">
+                    <tr><br></tr>
+                    <tr>
+                         <td>Username:</td>
+                         <td><input type="text" name="t1"><br></td>
+                    </tr>
+                    <tr><br></tr>
+                    <tr>
+                         <td>Password:</td>
+                         <td><input type="Password" name="t2"></td>
+                    </tr>
+                    <tr align="center">
+                         <td colspan="2"><br><br><input type="submit" value="Login" class="btn"></td>
+                    </tr>
+                    <tr align="center">
+                         <td colspan="2"><input type="reset" value="Clear" class="btn" id="btn2"></td>
+                    </tr>
+               </table>
+          </form>
+     </div>
+</body>
+
+</html>
