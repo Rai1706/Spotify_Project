@@ -57,16 +57,20 @@ h1 {
     display: grid;
 }
 
-.left-menu-item {
-    margin-top: 3px;
-    margin-bottom: 3px;
-    background-color: rgb(0, 163, 0);
-    width: 13rem;
-    border: 2px solid black;
-    border-radius: 10px;
-    display: grid;
-    padding-top: 15px;
-    padding-bottom: 15px;
+#home_icon {
+    height: 24px;
+    width: 24px;
+}
+
+#search_icon {
+    height: 24px;
+    width: 24px;
+}
+
+.left-menu-item-1 {
+    align-items: center;
+    padding-top: 27px;
+    font-size: 22px;
 }
 
 #right-menu {
@@ -77,7 +81,52 @@ h1 {
 
 a {
     text-decoration: none;
-    color: white;
+    color: rgb(0, 0, 0);
+}
+
+#left-menu-item-1 {
+    display: grid;
+    grid-template-rows: auto auto;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    background-color: rgb(0, 163, 0);
+    width: 13rem;
+    height: 10rem;
+    border: 2px solid black;
+    border-radius: 10px;
+    display: grid;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#left-menu-item-2 {
+    display: grid;
+    grid-template-rows: auto auto;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    background-color: rgb(0, 163, 0);
+    width: 13rem;
+    height: 10rem;
+    border: 2px solid black;
+    border-radius: 10px;
+    display: grid;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#left-menu-item-3 {
+    display: grid;
+    grid-template-rows: auto auto;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    background-color: rgb(0, 163, 0);
+    width: 13rem;
+    height: 10rem;
+    border: 2px solid black;
+    border-radius: 10px;
+    display: grid;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 div#ps {
