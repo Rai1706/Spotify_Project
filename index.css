@@ -39,6 +39,7 @@ h1 {
     width: 78px;
     border: 2px solid black;
     border-radius: 58px;
+    height: 75px;
 }
 
 .menu-anchor:hover {
@@ -81,7 +82,7 @@ h1 {
 
 a {
     text-decoration: none;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255)
 }
 
 #left-menu-item-1 {
@@ -89,12 +90,11 @@ a {
     grid-template-rows: auto auto;
     margin-top: 3px;
     margin-bottom: 3px;
-    background-color: rgb(0, 163, 0);
+    background-color: rgba(255, 255, 255, 0.140);
     width: 13rem;
     height: 10rem;
-    border: 2px solid black;
+    border: 2px solid rgb(0, 0, 0);
     border-radius: 10px;
-    display: grid;
     padding-top: 15px;
     padding-bottom: 15px;
 }
@@ -110,8 +110,7 @@ a {
     border: 2px solid black;
     border-radius: 10px;
     display: grid;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 105px;
 }
 
 #left-menu-item-3 {
@@ -132,5 +131,31 @@ a {
 div#ps {
     /* border: 2px solid white; */
     padding: 20px 20px;
-    padding-left: 200px;
+    padding-left: 50px;
+}
+
+#a1 {
+    padding-top: 15px;
+    padding-bottom: 30px;
+    margin-bottom: 2px;
+}
+
+#a2 {
+    margin-top: 2px;
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+
+#a1:hover {
+    border-bottom: 2px solid rgba(255, 255, 255, 0.140);
+    /* border-left: 2px solid rgba(255, 255, 255, 0.140); */
+    /* border-right: 2px solid rgba(255, 255, 255, 0.140); */
+    border-radius: 15px;
+}
+
+#a2:hover {
+    border-top: 2px solid rgba(255, 255, 255, 0.140);
+    /* border-left: 2px solid rgba(255, 255, 255, 0.140); */
+    /* border-right: 2px solid rgba(255, 255, 255, 0.140); */
+    border-radius: 15px;
 }
