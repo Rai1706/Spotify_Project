@@ -3,7 +3,7 @@ include("dbconnect.php");
 ?>
 
 <?php
-$sql = "SELECT * FROM student";
+$sql = "SELECT * FROM registration";
 $result = mysqli_query($conn, $sql);
 
 if (mysqli_num_rows($result) > 0)
