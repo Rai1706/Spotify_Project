@@ -4,12 +4,12 @@ include("dbconnect.php");
 <?php
 $un = $_POST['t1'];
 $pd = $_POST['t2'];
-$sql = "SELECT * FROM lgn";
+$sql = "SELECT * FROM registration";
 $result = mysqli_query($conn, $sql);
 
 while ($row = mysqli_fetch_assoc($result)) {
     if ($row["uname"] == $un && $row["pass"] == $pd) {
-        header("location:profile.php");
+        header("location:firstpage.html");
     }
 }
 mysqli_close($conn);

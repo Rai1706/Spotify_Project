@@ -66,7 +66,7 @@ input#search_bar_ip:hover {
     /* border: 2px solid white; */
     /* padding: 20px 20px; */
     padding-top: 37px;
-    padding-left: 0px;
+    padding-left: 90px;
     font-family: 'Playpen Sans', cursive;
 }
 
@@ -104,9 +104,35 @@ input#search_bar_ip:hover {
     width: 24px;
 }
 
+#settings_icon {
+    height: 24px;
+    width: 24px;
+}
+
 #search_icon {
     height: 24px;
     width: 24px;
+    background-image: url(search_icon.png);
+    background-color: #00a300;
+    background-size: cover;
+    border: none;
+    position: relative;
+    top: 6px;
+}
+
+#search_icon:hover {
+    height: 24px;
+    width: 24px;
+    background-image: url(search_icon.png);
+    background-color: #363636;
+    background-size: cover;
+    border: none;
+    position: relative;
+    top: 11px;
+    border: 1px solid black;
+    border-radius: 16px;
+    padding: 15px 15px;
+    cursor: pointer;
 }
 
 .left-menu-item-1 {
