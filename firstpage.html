@@ -107,22 +107,38 @@
             font-family: 'Playpen Sans', cursive;
             color: rgb(255 255 255);
         }
+
+        #audioPlayer {
+            display: none;
+        }
     </style>
 </head>
 
 <body>
     <h2 align="center">Trending!</h2>
     <div class="container">
-        <div class="item" id="item1"><input type="button" class="btn" value="Song"></div>
-        <div class="item" id="item2"><input type="button" class="btn" value="Song"></div>
-        <div class="item" id="item3"><input type="button" class="btn" value="Song"></div>
-        <div class="item" id="item4"><input type="button" class="btn" value="Song"></div>
-        <div class="item" id="item5"><input type="button" class="btn" value="Song"></div>
-        <div class="item" id="item6"><input type="button" class="btn" value="Song"></div>
-        <div class="item" id="item7"><input type="button" class="btn" value="Song"></div>
-        <div class="item" id="item8"><input type="button" class="btn" value="Song"></div>
-        <div class="item" id="item9"><input type="button" class="btn" value="Song"></div>
+
+        <div class="item" id="item1"><input type="button" class="btn" value="Candy Shop"
+                onclick="playAudio('alisa-candy-shop.mp3')"></div>
+        <div class="item" id="item2"><input type="button" class="btn" value="Cocktail"
+                onclick="playAudio('alisa-rabbit-cocktail.mp3')"></div>
+        <div class="item" id="item3"><input type="button" class="btn" value="Sweet Elegence"
+                onclick="playAudio('arthur-vyncke-sweet-elegance-a-theme-for-minah.mp3')"></div>
+        <div class="item" id="item4"><input type="button" class="btn" value="Holiday"
+                onclick="playAudio('kodomoi-holiday.mp3')"></div>
+        <div class="item" id="item5"><input type="button" class="btn" value="Memory of Summer"
+                onclick="playAudio('kodomoi-memory-of-summer.mp3')"></div>
+        <div class="item" id="item6"><input type="button" class="btn" value="Sunny"
+                onclick="playAudio('kodomoi-sunny.mp3')"></div>
+        <div class="item" id="item7"><input type="button" class="btn" value="Snorkel"
+                onclick="playAudio('Snorkel Master 0.1 16bit.wav')"></div>
+        <div class="item" id="item8"><input type="button" class="btn" value="Snowball Fight"
+                onclick="playAudio('Snowball Fight!! Master -8lufs For SC YT.wav')"></div>
+        <div class="item" id="item9"><input type="button" class="btn" value="Song"
+                onclick="playAudio('audio/song1.mp3')"></div>
+        <audio controls id="audioPlayer">Your browser does not support the audio element.</audio>
     </div>
+    <script src="scrripts.js"></script>
 </body>
 
 </html>
