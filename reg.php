@@ -16,11 +16,10 @@ if (!$conn) {
 
 $sql = "INSERT INTO registration (uname, pass, email,mobno)
   VALUES ('$un','$pd','$em','$mb')";
-$sql2 = "INSERT INTO lgn (uname, pass)
-  VALUES ('$un','$pd')";
 
-if (mysqli_query($conn, $sql) and mysqli_query($conn, $sql1)) {
-  echo "New record created successfully";
+
+if (mysqli_query($conn, $sql)) {
+  header("location:login2.html");
 } else {
   echo "Error: " . $sql . "<br>" . mysqli_error($conn);
 }
