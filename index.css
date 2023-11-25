@@ -10,6 +10,11 @@ h1 {
     font-family: 'Playpen Sans', cursive;
 }
 
+div#spotify {
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+
 #menu {
     background-color: rgb(0, 163, 0);
     margin: 0px;
@@ -17,7 +22,7 @@ h1 {
     border: 1px solid black;
     border-radius: 10px;
     display: grid;
-    grid-template-columns: 8% 60% 32%;
+    grid-template-columns: 8% 74% auto;
 }
 
 .menu-anchor {
@@ -29,6 +34,40 @@ h1 {
     /* border: 1px solid white; */
     border-radius: 15px;
     margin: 15px 0px;
+}
+
+#search_bar {
+    align-items: center;
+}
+
+input#search_bar_ip {
+    margin-top: 3%;
+    width: 72%;
+    height: 36%;
+    border: 2px solid black;
+    padding-left: 23px;
+    border-radius: 30px;
+    background-color: rgb(36 36 36);
+    color: white;
+}
+
+input#search_bar_ip:hover {
+    margin-top: 3%;
+    width: 72%;
+    height: 36%;
+    border: 2px solid black;
+    padding-left: 23px;
+    border-radius: 30px;
+    background-color: rgb(38 38 38 / 71%);
+    color: white;
+}
+
+#ps {
+    /* border: 2px solid white; */
+    /* padding: 20px 20px; */
+    padding-top: 37px;
+    padding-left: 0px;
+    font-family: 'Playpen Sans', cursive;
 }
 
 #logo-img-div {
@@ -162,13 +201,6 @@ a {
     padding-top: 15px;
     padding-bottom: 15px;
     font-family: 'Playpen Sans', cursive;
-}
-
-div#ps {
-    /* border: 2px solid white; */
-    /* padding: 20px 20px; */
-    padding-top: 37px;
-    padding-left: 220px;
 }
 
 #a1 {
