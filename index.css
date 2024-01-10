@@ -58,7 +58,7 @@ input#search_bar_ip:hover {
     border: 2px solid black;
     padding-left: 23px;
     border-radius: 30px;
-    background-color: rgb(38 38 38 / 71%);
+    /* background-color: rgb(38 38 38 / 71%); */
     color: white;
 }
 
